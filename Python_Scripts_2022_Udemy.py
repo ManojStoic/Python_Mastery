@@ -1,6 +1,5 @@
 # Python commonly used scripts 2022
 
-
 # #filter
 # x = list(filter(lambda x:x%2==0,[1,2,3,4,5]))
 # print(x)
@@ -202,5 +201,9 @@
 # print(dict_multiply)
 
 #Excercise - Github Day2-Q1
+#Write a program which accepts a sequence of comma-separated numbers from console 
+# and generate a list and a tuple which contains every number.
+# Suppose the following input is supplied to the program
+
 
 
