@@ -1,3 +1,5 @@
+# Python commonly used scripts 2022
+
 # #filter
 # x = list(filter(lambda x:x%2==0,[1,2,3,4,5]))
 # print(x)
@@ -197,4 +199,6 @@
 # num = int(input("Enter the number - "))
 # dict_multiply = {k:k*k for k in range(1,num+1)}
 # print(dict_multiply)
+
+
 
