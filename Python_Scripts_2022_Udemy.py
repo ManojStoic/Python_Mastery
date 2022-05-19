@@ -164,3 +164,33 @@
 # for i in fib_generator(21):
 #     print(i)
 
+#Python Packages
+
+"""Recently, the Python has made Dictionaries ordered by default!
+ So unless you need to maintain older version of Python (older than 3.7), 
+ you no longer need to use ordered dict,
+  you can just use regular dictionaries!"""
+
+#from collections import OrderedDict, Counter, defaultdict
+# ls = [1,2,3,4,5]
+# sentence = "This is Python tutorial"
+# print(Counter(ls))
+# print(Counter(sentence))
+# dictionary = defaultdict(lambda: 'does not exist',{'a':1,'b':2})
+# print(dictionary['e'])
+# d = OrderedDict()
+# d['a']= 1
+# d['b']= 2
+# d2 = OrderedDict()
+# d2['a']= 2
+# d2['b']= 1
+# print(d2 == d)
+
+# import datetime
+# print(datetime.datetime(2000,2,2))
+# print(datetime.date.today())
+
+# from array import array
+# arr = array('i',[1,2,3])
+# print(arr[0])
+
