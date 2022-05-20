@@ -194,3 +194,59 @@
 # arr = array('i',[1,2,3])
 # print(arr[0])
 
+#debugging tips
+#linting - Allows us to detect some issues with our code
+# ide/ editors
+# read errors
+# pdb - python debugger - allows us to interact with the code
+# (pdb) - type help command/ type exit command
+# import pdb
+# num =1
+# str = "abc"
+# pdb.set_trace()
+# a = 4*5
+# b = 6*2
+# num+str
+
+#Sample Flask app code
+# from flask import Flask
+# app = Flask('app')
+# @app.route('/')
+# def hello_world():
+#   return 'Hello, World!'
+# app.run(host='0.0.0.0', port=8080)
+
+# my_file = open('Sample.txt',)
+# print(my_file.read())
+# my_file.seek(0)
+# print(my_file.read())
+# my_file.seek(0)
+# print(my_file.read())
+# print(my_file.readline())
+# print(my_file.readlines())
+# my_file.close()
+
+# r -> read, r+ -> readwrite, w -> write, a -> append, seek -> to bring the cursor to the start 
+# with open('Sample.txt', mode='r+') as file:
+#   text = file.write("Hey it's me")
+#   print(text)
+#   file.seek(0)
+#   print(file.read())
+# use pathlib for easy File I/O operations
+
+#Python File I/O Translator exercise
+# use open source lib 'translate' from PyPI
+# Translates text file to German 
+# from translate import Translator
+# try:
+#   trans = Translator(to_lang="de")
+#   with open('Sample.txt',mode='r') as file:
+#     txt = file.read()
+#     trans_txt = trans.translate(txt)
+#     print(trans_txt)
+#     with open('Translate.txt',mode='w') as file:
+#       file.write(trans_txt)
+# except Exception as err:
+#   print("Error - {0}",err)
+
+
