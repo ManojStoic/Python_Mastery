@@ -249,4 +249,83 @@
 # except Exception as err:
 #   print("Error - {0}",err)
 
+# Regular expressions
+# import re
+# string = "This is a sample string"
+# # print("zoo" in string)
+# a = re.search("this",string)
+# # print(a.span())
+# print(a.start())
+# print(a.end())
+# print(a.group())
+
+# import re
+# pattern = re.compile('this')
+# string = "this is a solid principle, part of this lesson"
+# a = pattern.search(string)
+# b = pattern.findall(string)
+# c = pattern.fullmatch(string)
+# d = pattern.match(string)
+# if a: print(a.group())
+# else: print(f"a has no value")
+# if b: print(b)
+# else: print(f"b has no value")
+# if c: print(c.group())  
+# else: print(f"c has no value")
+# if d: print(d.group())
+# else: print(f"d has no value")
+
+# import re
+# pattern  = re.compile(r"[a-zA-Z].([l])") 
+# # r stands for raw string
+# string = "this is a solid principle, part of this lesson"
+# a = pattern.search(string)
+# if a: print(a.group())
+# else: print(f"a has no value")
+
+# import re
+# pattern = re.compile(r"(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)")
+# string = "manojgmail.com"
+# s = pattern.search(string)
+# a = pattern.match(string)
+# b = pattern.findall(string)
+# c = pattern.fullmatch(string)
+# d = pattern.match(string)
+# if s: print(s.group())
+# else: print(f"s has no value")
+# if a: print(a.group())
+# else: print(f"a has no value")
+# if b: print(b)
+# else: print(f"b has no value")
+# if c: print(c.group())  
+# else: print(f"c has no value")
+# if d: print(d.group())
+# else: print(f"d has no value")
+
+# import re
+# pattern = re.compile(r"(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)")
+# string = ""
+# s = pattern.search(string)
+# a = pattern.match(string)
+# b = pattern.findall(string)
+# c = pattern.fullmatch(string)
+# d = pattern.match(string)
+# if s: print(s.group())
+# else: print(f"s has no value")
+# if a: print(a.group())
+# else: print(f"a has no value")
+# if b: print(b)
+# else: print(f"b has no value")
+# if c: print(c.group())  
+# else: print(f"c has no value")
+# if d: print(d.group())
+# else: print(f"d has no value")
+
+# password checker using Regex
+# import re
+# pattern = re.compile(r"[a-zA-Z0-9#@$&]{8,}\d")
+# password = "suddddc$09"
+# s = pattern.fullmatch(password)
+# print(s)
+
 
