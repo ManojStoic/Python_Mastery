@@ -328,4 +328,18 @@
 # s = pattern.fullmatch(password)
 # print(s)
 
+# Unit test function samples - Test driven development
+# def sum(a=0,b=0):
+#   try:
+#     if a and b:
+#       return int(a)+int(b)
+#     else:
+#       return "Please return a number"
+#   except ValueError as err:
+#     return err
+
+# def sub(a,b):
+#   if a>b : return a-b
+#   else : return b-a
+
 
