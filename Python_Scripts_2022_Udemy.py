@@ -1,5 +1,17 @@
 # Python commonly used scripts 2022
 
+#sample class file for reference
+# class Generator:
+#     def __init__(self, num):
+#         self.num = num
+
+#     def divisor(self):
+#         print(self.num)
+
+# object1 = Generator(20)
+# print(object1.num)
+# print(object1.divisor())
+
 # #filter
 # x = list(filter(lambda x:x%2==0,[1,2,3,4,5]))
 # print(x)
