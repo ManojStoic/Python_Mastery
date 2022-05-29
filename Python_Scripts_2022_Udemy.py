@@ -355,3 +355,44 @@
 #   else : return b-a
 
 
+#*********************************************************************************************#
+# Instance vs Class vs Static methods
+
+
+# class Test:
+#     def instancemethod(self):
+#         return "This is instance method", self
+
+#     @classmethod
+#     def classmethod(cls):
+#         return "This is class method", cls
+
+#     @staticmethod
+#     def staticmethod():
+#         return "This is static method"
+
+# Accessing instance methods
+# obj = Test()
+# print(obj.instancemethod()) #<__main__.Test object at 0x000001DC8AFDEF10> -- object state
+# print(Test.instancemethod(obj)) #<__main__.Test object at 0x000001DC8AFDEF10> --object state
+# print(Test().instancemethod()) #<__main__.Test object at 0x000001DC8AFDEDF0> -- class state
+
+# # Accessing class methods
+# print(obj.classmethod()) #<class '__main__.Test'>
+# print(Test.classmethod()) #<class '__main__.Test'>
+# print(Test().classmethod()) #<class '__main__.Test'>
+
+# Accessing static methods
+# print(obj.staticmethod()) 
+# print(Test.staticmethod()) 
+# print(Test().staticmethod()) 
+
+# Instance methods need a class instance and can access the instance through self.
+# Class methods don’t need a class instance. They can’t access the instance (self) 
+#   but they have access to the class itself via cls.
+# Static methods don’t have access to cls or self. They work like regular functions
+#   but belong to the class’s namespace.
+# Static and class methods communicate and (to a certain degree) enforce developer intent
+#   about class design. This can have maintenance benefits.
+
+#*********************************************************************************************#
