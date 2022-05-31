@@ -9,7 +9,8 @@ try:
     if not os.path.exists(destinationpath): os.mkdir(destinationpath)
 
     for files in os.listdir(sourcepath):
-        if '.jpg' in files:
+        #if '.jpg' in files:
+        if files.endswith(".jpg"):
             img = Image.open(os.path.join(sourcepath,files))
             img_name = os.path.splitext(os.path.join(destinationpath,files))[0]+'.png'
             img.save(img_name)
