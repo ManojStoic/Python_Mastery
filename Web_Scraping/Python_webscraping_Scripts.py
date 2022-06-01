@@ -12,9 +12,13 @@ Useful API links - https://swapi.dev/ https://docs.github.com/en/rest
 Googlebot - It is the web crawler software used by Google that collects documents from the web 
 to build a searchable index for the Google Search engine (basis for all SEO)
 
-BeautifulSoup - Python lib for web scraping (helps us to convert string to useful object for manipulation)
+beautifulSoup - Python lib for web scraping (helps us to convert string to useful object for manipulation) -> smallscale
+scrapy - Large framework for extracting the data from websites -> largescale
+
 pprint - pprint.pprint helps with pretty print (nicely formatted output)
 sorted - sorted(list,key=[lamda k:k['label'],reversed =True])
+
+scraped data can be stored into databases, excel, csv etc to access later.
 
 """
 
