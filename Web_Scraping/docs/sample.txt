@@ -1,0 +1,146 @@
+
+
+
+Hacker News
+
+Hacker News
+new | past | comments | ask | show | jobs | submit 
+login
+
+
+
+
+1. Science needs more research software engineers (nature.com)
+255 points by sohkamyung 6 hours ago  | hide | 141 comments 
+
+
+2. Modern TUI calendar and task manager with customizable interface (github.com/anufrievroman)
+108 points by gballan 4 hours ago  | hide | 16 comments 
+
+
+3. What Good, Cash-Strapped Hiring Looks Like (commoncog.com)
+33 points by hunglee2 1 hour ago  | hide | 9 comments 
+
+
+4. Find Wikipedia photos needed near you (toolforge.org)
+226 points by thcipriani 10 hours ago  | hide | 92 comments 
+
+
+5. Framework laptop water damage repair attempt using partial schematic [video] (youtube.com)
+165 points by CaliforniaKarl 10 hours ago  | hide | 165 comments 
+
+
+6. Teleforking a Process onto a Different Computer (thume.ca)
+165 points by kaladin-jasnah 12 hours ago  | hide | 69 comments 
+
+
+7. Modern CSV Version 2 Beta is now available (moderncsv.com)
+124 points by thejosh 10 hours ago  | hide | 54 comments 
+
+
+8. I got hacked and Facebook banned me (emilycordes.com)
+187 points by kzrl 6 hours ago  | hide | 170 comments 
+
+
+9. Documenting Design Decisions Using RFCs and ADRs (2020) (brunoscheufler.com)
+38 points by Inversechi 6 hours ago  | hide | 5 comments 
+
+
+10. PhotoRoom Is Hiring a Senior Web Developer (WebAssembly, WebGL and React) in Paris (lever.co)
+2 hours ago | hide 
+
+
+11. The Pit, the Cabin, and the Dance Floor (2020) (jamie-wong.com)
+32 points by mooreds 5 hours ago  | hide | 2 comments 
+
+
+12. Remembering Apple’s Newton, 30 years on (arstechnica.com)
+183 points by kergonath 16 hours ago  | hide | 140 comments 
+
+
+13. Legends Solar – Buy operating solar panels on commercial solar farms (legends.solar)
+157 points by justicz 12 hours ago  | hide | 146 comments 
+
+
+14. Plain Text Calendar (terokarvinen.com)
+154 points by gaws 13 hours ago  | hide | 64 comments 
+
+
+15. Lunatic brings Erlang's principles to WebAssembly (serokell.io)
+117 points by aroccoli 11 hours ago  | hide | 25 comments 
+
+
+16. Einstein: NewtonOS running on other operating systems (github.com/pguyot)
+50 points by zdw 4 hours ago  | hide | 7 comments 
+
+
+17. Show HN: Can you lose at Wordle if you tried? (dontwordle.com)
+572 points by dontwordle 15 hours ago  | hide | 200 comments 
+
+
+18. The Nomadic Chemist: Alfred Sercombe Griffin (1878-1943) and Burma (blogs.bl.uk)
+4 points by drdee 1 hour ago  | hide | discuss 
+
+
+19. LGTM – A simple pull request approval system (github.com/go-gitea)
+21 points by 0des 5 hours ago  | hide | 14 comments 
+
+
+20. Algebraic Data Types in Elixir (appsignal.com)
+55 points by unripe_syntax 7 hours ago  | hide | 15 comments 
+
+
+21. Why Darwin failed (2006) (synack.net)
+75 points by jckahn 11 hours ago  | hide | 63 comments 
+
+
+22. Show HN: I made React with a faster Virtual DOM
+54 points by aidenyb 8 hours ago  | hide | 43 comments 
+
+
+23. Eye contact between musicians (classical-music.com)
+84 points by bookofjoe 12 hours ago  | hide | 62 comments 
+
+
+24. On the Shortcomings of Gemini Protocol (flounder.online)
+41 points by urlwolf 8 hours ago  | hide | 17 comments 
+
+
+25. Top-500 NPM package maintainers now require 2FA (github.blog)
+109 points by cute_boi 13 hours ago  | hide | 56 comments 
+
+
+26. Show HN: DataStation – App to easily query, script, and visualize data (github.com/multiprocessio)
+103 points by eatonphil 12 hours ago  | hide | 22 comments 
+
+
+27. PyLucid: Lucid Interpreter Written in Python (github.com/billwadge)
+7 points by webmaven 3 hours ago  | hide | 2 comments 
+
+
+28. The industry has been sizing kayak paddles wrong (paddlingmag.com)
+96 points by troydavis 13 hours ago  | hide | 42 comments 
+
+
+29. DALL-E 2 has a secret language (twitter.com/giannis_daras)
+564 points by smarx 14 hours ago  | hide | 106 comments 
+
+
+30. SPACs are warning they may go bust (wsj.com)
+97 points by prostoalex 10 hours ago  | hide | 115 comments 
+
+
+More 
+
+
+Guidelines
+        | FAQ
+        | Lists
+        | API
+        | Security
+        | Legal
+        | Apply to YC
+        | ContactSearch:
+          
+
+

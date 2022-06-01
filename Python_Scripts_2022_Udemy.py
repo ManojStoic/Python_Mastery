@@ -246,6 +246,16 @@
 #   print(file.read())
 # use pathlib for easy File I/O operations
 
+# code to write a text into a file by checking and removing the files in a directory if present
+# if not os.path.exists('.\docs'): os.mkdir('.\docs')
+# else: 
+#     for file in os.listdir('.\docs'):
+#         os.remove(os.path.join('.\docs',file))
+
+# with open('.\docs\sample.txt','w') as file:
+#     file.seek(0)
+#     file.write(soup.text)
+
 #Python File I/O Translator exercise
 # use open source lib 'translate' from PyPI
 # Translates text file to German 
