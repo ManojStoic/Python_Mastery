@@ -1,8 +1,14 @@
 import tweepy
 
 # authentication method to verify your credentials
-auth = tweepy.OAuthHandler('lFnasNk72YkMD7PrU8qo0bqOJ', '5S6w2QRhIqOqqdOzADB6YNSRUB7cjWGwMeTivhH8GARw2APxfR')
-auth.set_access_token('835379383120592897-RHR5SIDDDptK2eGrNAItw2tZqHpjrKP', 'bcXMD3EYk5GUH3NYzm7aUNy2u1MhfHCAoPYDO4EzzU0vw')
+all_keys = open('D:\Work\Code\Python\Twitterbot\keys.txt','r').read().splitlines()
+api_key= all_keys[0]
+api_key_secret= all_keys[1]
+access_token= all_keys[2]
+access_token_secret= all_keys[3]
+
+auth = tweepy.OAuthHandler(api_key, api_key_secret)
+auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
