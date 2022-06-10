@@ -406,3 +406,47 @@
 #   about class design. This can have maintenance benefits.
 
 #*********************************************************************************************#
+# creating virtual environments to manage package versions 
+
+#Install venv to your host Python by running this command in your terminal
+# pip install virtualenv
+
+#To use venv in your project, in your terminal, create a new project folder, 
+# cd to the project folder in your terminal, and run the following command
+# python<version> -m venv <virtual-environment-name>
+# example - python -m venv venv
+
+#Generate a text file listing all your project dependencies by running the code below:
+# pip freeze > requirements.txt
+
+#Run the code below to install all your dependencies within their own copy of the project:
+# pip install -r requirements.txt
+
+#*********************************************************************************************#
+# Doc Notes - Python Flask Framework
+
+#     Web server - Stores and loads all static pages related to a website
+#     http.server -> python lib to implement http servers(web servers)
+#     Flask -> Python sync framework (analogy - micro-kitchen)
+#     Django -> Python sync framework (analogy - macro-kitchen)
+#     Never name a python module under Flask framework under the name  'flask.py' to avoid conflict
+#     To run the application, use the flask command or python -m flask.
+#     Before you can do that you need to tell your terminal the application to work with by exporting the FLASK_APP environment variable.
+#     > set FLASK_APP=hello
+#     > flask run
+#     * Running on http://127.0.0.1:5000/
+#     set FLASK_ENV=development    -> to turn on debug mode
+#     flask.render_template -> Renders a template from the template folder with the given context.
+#     Jinja template - {{4+5}} -> Flask built in templating language to evaluate the expression as python.
+#     url_for('folder','filename.ext') -> alternate Flask in built method/safer method for hardcoding the urls  (folder/filename.ext)
+#     variable rules -> add variables to the url section by placing the variables within the expression <variables> and pass it
+#                         to the jinga expression in html
+#     Browsers use the MIME type and not the file extension to determine how to process a URL, so it's important that Web server sends
+#         the correct MIME type in the response's Content-Type header (eg - text/javascript, text/html, image/png)
+#     Request object - To access incoming request data from client
+#     csv - module to write data to a csv file
+
+#     pip freeze > requirements.txt -> pythonic way to automcatically list all dependent libraries/packages
+#       into a txt file and use it in any machine instead of creating a new venv and downloading all packages.
+
+#*********************************************************************************************#
